@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataCenter">
+      <HintPath>..\..\DataCenter\DataCenter\bin\Debug\netstandard2.0\DataCenter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
